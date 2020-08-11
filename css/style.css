@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    
+  } 
+
+
+/* header */
+#rr{
+   font-family: sans-serif;
+   padding: 20px;
+   position: relative;
+   width: 110%;
+}
+
+#wpheader{
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+
+}
+
+.main-header{
+    flex: 80%;
+}
+
+.main-header img{
+    margin-left: 7%;
+    width: 350px;
+    height: 50px;
+}
+
+.head-search{
+    flex: 20%;
+    color: white;
+    position: relative;
+    margin-right: 130px;
+    
+}
+
+.head-search input{
+    background-color: black;
+}
+
+.navbar ul{
+    width: 85%;
+    margin-left: 10%;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 14px;
+    
+ }
+ .navbar ul li a:hover{
+    color:rgb(109, 123, 250);
+    font-size: 14px;
+    
+ }
+
+ .button{
+     margin-left: 300px;
+ }
+
+ /* Meet wordpress */
+#home-welcome * {
+    box-sizing: border-box;
+}
+
+
+
+#home-welcome{
+    color:white;
+    text-align: center;
+    width: 100%;
+}
+
+#home-welcome header {
+    background: #0073aa;
+    padding:100px;
+    width: 100%;
+    padding: 40px;
+}
+
+#home-welcome h1{
+    font-size: 3.8147rem;
+    font-weight: 300;
+    width: 80%;
+    margin-left: 10%;
+    
+    
+}
+
+#home-welcome header p.subheading {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-left: 190px;
+    font-weight: 300;
+    padding: 11px 0;
+    width: 60%;
+    font-size: 25px;
+}
+
+/* language */
+ .lang{
+     text-align: center;
+     background-color: rgb(203, 231, 247);
+     width: 70%;
+     margin-left: 13%;
+     margin-top: 1%;
+     padding: 2px;
+ }
+
+/* Intro Section */
+/* Beautiful designs */
+.intro{
+    background-color: white;
+    margin-left: 170px;
+    color:grey;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 65%;
+}
+
+.intro p{
+    width: 80%;
+    margin-left: 85px;
+    font-size: 25px;
+    margin-top: 50px;
+    color: gray;
+}
+
+  /* Trusted byy best */
+.showcase{
+    background-color: white;
+    padding: 100px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.showcase h2{
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+   
+}
+
+.showcase p{
+    font-size: 25px;
+    width: 60%;
+    margin-left: 215px;
+    padding: 50px;
+    color:grey;
+}
+
+.showcase>div{
+    height: 100vh;
+    background: url(https://s.w.org/images/home/collage-min.jpg?6) center top;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+/* Powerful */
+
+.powerful{
+    background-color: white;
+     text-align: center;
+}
+
+.powerful h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.powerful p{
+    font-size: 25px;
+    width: 60%;
+    margin-left: 270px;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+  
+
+.features .items ul{
+    text-align: center;
+    list-style: none;
+    margin: 3rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.features .items ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 160px;
+    text-align: center;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+ /*Icons and tables*/
+.feature-service {
+    width: 70%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+  
+.feature-service .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+  
+.feature-service ul li {
+    border-bottom: 1px solid #eee;
+}
+
+.feature-service ul li:not(:nth-child(4n)) {
+    border-right: 1px solid #eee;
+}
+.feature-service .service-list .service-item {
+    flex-grow: 1;
+    width: 25%;
+    padding: 40px;
+}
+
+.feature-service .fas {
+    color: #00a0d2;
+    font-size: 50px;
+}
+
+.feature-service .far {
+    color: #00a0d2;
+    font-size: 50px;
+}
+  
+.feature-service p {
+    font-size: 20px;
+    margin-top: 30px;
+} 
+  
+  /*Icons and tables closed*/
+
+
+.features p{
+    margin: auto;
+    font-size: 20px;
+    padding: 40px 0;
+    max-width: 43rem;
+    font-weight: 500;
+    text-align: center;
+    color: gray
+}
+
+/* Community */
+.community{
+    color: whitesmoke;
+} 
+ 
+.community .container{
+    background: url(https://s.w.org/images/home/community-2.jpg?3) no-repeat;
+    position: relative;
+    max-width: 100%;
+    background-size: cover;
+    height: 500px;
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.community .container h2{
+    float:top;
+    text-align: left;
+    font-size: 3.8147rem;
+    font-weight: 300;
+    margin-left: 105px;
+    
+}  
+
+.community .container p{
+    font-size: 1.25rem;
+    text-align: left;
+    margin: -.4rem auto 2rem;
+    padding: 11px 0;
+}
+
+.community .container .community-btn{
+    margin-left: 105px;
+}
+
+/*Get Started  */
+
+.getstarted{
+    background-color: white;
+    padding: 70px;
+    text-align: center;
+}
+
+.getstarted h1{
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.getstarted p{
+    font-size: 22px;
+    width: 60%;
+    margin-left: 215px;
+    padding: 20px;
+    color:grey;
+}
+
+.container{
+    margin-top: 60px;
+    width: 40%;
+}
+
+
+/* Footer */
+#footer{
+    background-color: #f7f7f7;
+   
+}
+
+#footer .container .row .col-md-2 ul{
+    margin-top: 15px;
+    
+}
+
+#footer .cip {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(156, 152, 152, 0.418);
+    letter-spacing: 2px;
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 40px;
+    
+} 
+
+
